@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "SplashViewController.h"
+#import "SlideNavigationController.h"
+#import "LoginViewController.h"
+#import "CategoryViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +21,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    SlideNavigationController *slideNavigationController;
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    SplashViewController *splashController = [[SplashViewController alloc] initWithNibName:@"SplashViewController" bundle:nil];
+    slideNavigationController = [[SlideNavigationController alloc]initWithRootViewController:splashController];
+    self.window.rootViewController = slideNavigationController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

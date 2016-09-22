@@ -9,10 +9,27 @@
 /* Begin PBXBuildFile section */
 		2F51659A1D929B0700D7B9D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5165991D929B0700D7B9D9 /* main.m */; };
 		2F51659D1D929B0700D7B9D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F51659C1D929B0700D7B9D9 /* AppDelegate.m */; };
-		2F5165A01D929B0700D7B9D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F51659F1D929B0700D7B9D9 /* ViewController.m */; };
-		2F5165A31D929B0700D7B9D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5165A11D929B0700D7B9D9 /* Main.storyboard */; };
 		2F5165A51D929B0800D7B9D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F5165A41D929B0800D7B9D9 /* Assets.xcassets */; };
-		2F5165A81D929B0800D7B9D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5165A61D929B0800D7B9D9 /* LaunchScreen.storyboard */; };
+		2F5165B41D929C0B00D7B9D9 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5165B21D929C0B00D7B9D9 /* SplashViewController.m */; };
+		2F5165B51D929C0B00D7B9D9 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5165B31D929C0B00D7B9D9 /* SplashViewController.xib */; };
+		2F5165C81D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5165BA1D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorFade.m */; };
+		2F5165C91D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5165BC1D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorScale.m */; };
+		2F5165CA1D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5165BE1D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
+		2F5165CB1D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5165C01D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorSlide.m */; };
+		2F5165CC1D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5165C21D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
+		2F5165CD1D92A6F400D7B9D9 /* menu-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F5165C41D92A6F400D7B9D9 /* menu-button.png */; };
+		2F5165CE1D92A6F400D7B9D9 /* menu-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F5165C51D92A6F400D7B9D9 /* menu-button@2x.png */; };
+		2F5165CF1D92A6F400D7B9D9 /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5165C71D92A6F400D7B9D9 /* SlideNavigationController.m */; };
+		2F5165DE1D937FDE00D7B9D9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5165DC1D937FDE00D7B9D9 /* LoginViewController.m */; };
+		2F5165DF1D937FDE00D7B9D9 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5165DD1D937FDE00D7B9D9 /* LoginViewController.xib */; };
+		2F5165E51D93BE5C00D7B9D9 /* back-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F5165E31D93BE5C00D7B9D9 /* back-button.png */; };
+		2F5165E61D93BE5C00D7B9D9 /* back-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F5165E41D93BE5C00D7B9D9 /* back-button@2x.png */; };
+		2F5165EB1D93C21D00D7B9D9 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5165E91D93C21D00D7B9D9 /* CategoryViewController.m */; };
+		2F5165EC1D93C21D00D7B9D9 /* CategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5165EA1D93C21D00D7B9D9 /* CategoryViewController.xib */; };
+		2F5165F11D93C7F700D7B9D9 /* CategoryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5165EF1D93C7F700D7B9D9 /* CategoryViewCell.m */; };
+		2F5165F21D93C7F700D7B9D9 /* CategoryViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5165F01D93C7F700D7B9D9 /* CategoryViewCell.xib */; };
+		2F5165F71D93DAF200D7B9D9 /* RightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5165F51D93DAF200D7B9D9 /* RightMenuViewController.m */; };
+		2F5165F81D93DAF200D7B9D9 /* RightMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5165F61D93DAF200D7B9D9 /* RightMenuViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +37,42 @@
 		2F5165991D929B0700D7B9D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2F51659B1D929B0700D7B9D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2F51659C1D929B0700D7B9D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2F51659E1D929B0700D7B9D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2F51659F1D929B0700D7B9D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2F5165A21D929B0700D7B9D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F5165A41D929B0800D7B9D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2F5165A71D929B0800D7B9D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F5165A91D929B0800D7B9D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F5165B11D929C0B00D7B9D9 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SplashViewController.h; path = source/splashView/SplashViewController.h; sourceTree = "<group>"; };
+		2F5165B21D929C0B00D7B9D9 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SplashViewController.m; path = source/splashView/SplashViewController.m; sourceTree = "<group>"; };
+		2F5165B31D929C0B00D7B9D9 /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SplashViewController.xib; path = source/splashView/SplashViewController.xib; sourceTree = "<group>"; };
+		2F5165B81D92A6F400D7B9D9 /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
+		2F5165B91D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
+		2F5165BA1D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
+		2F5165BB1D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
+		2F5165BC1D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
+		2F5165BD1D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
+		2F5165BE1D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
+		2F5165BF1D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
+		2F5165C01D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
+		2F5165C11D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
+		2F5165C21D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
+		2F5165C41D92A6F400D7B9D9 /* menu-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button.png"; sourceTree = "<group>"; };
+		2F5165C51D92A6F400D7B9D9 /* menu-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button@2x.png"; sourceTree = "<group>"; };
+		2F5165C61D92A6F400D7B9D9 /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationController.h; sourceTree = "<group>"; };
+		2F5165C71D92A6F400D7B9D9 /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
+		2F5165DB1D937FDE00D7B9D9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = source/loginView/LoginViewController.h; sourceTree = "<group>"; };
+		2F5165DC1D937FDE00D7B9D9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = source/loginView/LoginViewController.m; sourceTree = "<group>"; };
+		2F5165DD1D937FDE00D7B9D9 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = source/loginView/LoginViewController.xib; sourceTree = "<group>"; };
+		2F5165E11D939C4B00D7B9D9 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2F5165E21D939C7C00D7B9D9 /* ColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorUtil.h; path = source/common/ColorUtil.h; sourceTree = "<group>"; };
+		2F5165E31D93BE5C00D7B9D9 /* back-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-button.png"; sourceTree = "<group>"; };
+		2F5165E41D93BE5C00D7B9D9 /* back-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-button@2x.png"; sourceTree = "<group>"; };
+		2F5165E81D93C21D00D7B9D9 /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategoryViewController.h; path = source/categoryView/CategoryViewController.h; sourceTree = "<group>"; };
+		2F5165E91D93C21D00D7B9D9 /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CategoryViewController.m; path = source/categoryView/CategoryViewController.m; sourceTree = "<group>"; };
+		2F5165EA1D93C21D00D7B9D9 /* CategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CategoryViewController.xib; path = source/categoryView/CategoryViewController.xib; sourceTree = "<group>"; };
+		2F5165EE1D93C7F700D7B9D9 /* CategoryViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategoryViewCell.h; path = source/categoryView/categoryCell/CategoryViewCell.h; sourceTree = "<group>"; };
+		2F5165EF1D93C7F700D7B9D9 /* CategoryViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CategoryViewCell.m; path = source/categoryView/categoryCell/CategoryViewCell.m; sourceTree = "<group>"; };
+		2F5165F01D93C7F700D7B9D9 /* CategoryViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CategoryViewCell.xib; path = source/categoryView/categoryCell/CategoryViewCell.xib; sourceTree = "<group>"; };
+		2F5165F41D93DAF200D7B9D9 /* RightMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RightMenuViewController.h; path = source/rightMenu/RightMenuViewController.h; sourceTree = "<group>"; };
+		2F5165F51D93DAF200D7B9D9 /* RightMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RightMenuViewController.m; path = source/rightMenu/RightMenuViewController.m; sourceTree = "<group>"; };
+		2F5165F61D93DAF200D7B9D9 /* RightMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RightMenuViewController.xib; path = source/rightMenu/RightMenuViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +105,11 @@
 		2F5165971D929B0700D7B9D9 /* iOsProject1 */ = {
 			isa = PBXGroup;
 			children = (
+				2F5165AF1D929B8300D7B9D9 /* source */,
 				2F51659B1D929B0700D7B9D9 /* AppDelegate.h */,
 				2F51659C1D929B0700D7B9D9 /* AppDelegate.m */,
-				2F51659E1D929B0700D7B9D9 /* ViewController.h */,
-				2F51659F1D929B0700D7B9D9 /* ViewController.m */,
-				2F5165A11D929B0700D7B9D9 /* Main.storyboard */,
+				2F5165E11D939C4B00D7B9D9 /* PrefixHeader.pch */,
 				2F5165A41D929B0800D7B9D9 /* Assets.xcassets */,
-				2F5165A61D929B0800D7B9D9 /* LaunchScreen.storyboard */,
 				2F5165A91D929B0800D7B9D9 /* Info.plist */,
 				2F5165981D929B0700D7B9D9 /* Supporting Files */,
 			);
@@ -77,6 +122,119 @@
 				2F5165991D929B0700D7B9D9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F5165AF1D929B8300D7B9D9 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				2F5165F31D93DABB00D7B9D9 /* rightMenu */,
+				2F5165E71D93C1EF00D7B9D9 /* categoryView */,
+				2F5165E01D939C2800D7B9D9 /* common */,
+				2F5165D01D9373CF00D7B9D9 /* loginView */,
+				2F5165B61D92A6F400D7B9D9 /* slideMenu */,
+				2F5165B01D929B9600D7B9D9 /* splashView */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		2F5165B01D929B9600D7B9D9 /* splashView */ = {
+			isa = PBXGroup;
+			children = (
+				2F5165B11D929C0B00D7B9D9 /* SplashViewController.h */,
+				2F5165B21D929C0B00D7B9D9 /* SplashViewController.m */,
+				2F5165B31D929C0B00D7B9D9 /* SplashViewController.xib */,
+			);
+			name = splashView;
+			sourceTree = "<group>";
+		};
+		2F5165B61D92A6F400D7B9D9 /* slideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2F5165B71D92A6F400D7B9D9 /* Animations */,
+				2F5165C31D92A6F400D7B9D9 /* Assets */,
+				2F5165C61D92A6F400D7B9D9 /* SlideNavigationController.h */,
+				2F5165C71D92A6F400D7B9D9 /* SlideNavigationController.m */,
+			);
+			name = slideMenu;
+			path = source/slideMenu;
+			sourceTree = "<group>";
+		};
+		2F5165B71D92A6F400D7B9D9 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				2F5165B81D92A6F400D7B9D9 /* SlideNavigationContorllerAnimator.h */,
+				2F5165B91D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorFade.h */,
+				2F5165BA1D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorFade.m */,
+				2F5165BB1D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorScale.h */,
+				2F5165BC1D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorScale.m */,
+				2F5165BD1D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
+				2F5165BE1D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
+				2F5165BF1D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorSlide.h */,
+				2F5165C01D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorSlide.m */,
+				2F5165C11D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
+				2F5165C21D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		2F5165C31D92A6F400D7B9D9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2F5165E31D93BE5C00D7B9D9 /* back-button.png */,
+				2F5165E41D93BE5C00D7B9D9 /* back-button@2x.png */,
+				2F5165C41D92A6F400D7B9D9 /* menu-button.png */,
+				2F5165C51D92A6F400D7B9D9 /* menu-button@2x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2F5165D01D9373CF00D7B9D9 /* loginView */ = {
+			isa = PBXGroup;
+			children = (
+				2F5165DB1D937FDE00D7B9D9 /* LoginViewController.h */,
+				2F5165DC1D937FDE00D7B9D9 /* LoginViewController.m */,
+				2F5165DD1D937FDE00D7B9D9 /* LoginViewController.xib */,
+			);
+			name = loginView;
+			sourceTree = "<group>";
+		};
+		2F5165E01D939C2800D7B9D9 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				2F5165E21D939C7C00D7B9D9 /* ColorUtil.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		2F5165E71D93C1EF00D7B9D9 /* categoryView */ = {
+			isa = PBXGroup;
+			children = (
+				2F5165ED1D93C7CC00D7B9D9 /* categoryCell */,
+				2F5165E81D93C21D00D7B9D9 /* CategoryViewController.h */,
+				2F5165E91D93C21D00D7B9D9 /* CategoryViewController.m */,
+				2F5165EA1D93C21D00D7B9D9 /* CategoryViewController.xib */,
+			);
+			name = categoryView;
+			sourceTree = "<group>";
+		};
+		2F5165ED1D93C7CC00D7B9D9 /* categoryCell */ = {
+			isa = PBXGroup;
+			children = (
+				2F5165EE1D93C7F700D7B9D9 /* CategoryViewCell.h */,
+				2F5165EF1D93C7F700D7B9D9 /* CategoryViewCell.m */,
+				2F5165F01D93C7F700D7B9D9 /* CategoryViewCell.xib */,
+			);
+			name = categoryCell;
+			sourceTree = "<group>";
+		};
+		2F5165F31D93DABB00D7B9D9 /* rightMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2F5165F41D93DAF200D7B9D9 /* RightMenuViewController.h */,
+				2F5165F51D93DAF200D7B9D9 /* RightMenuViewController.m */,
+				2F5165F61D93DAF200D7B9D9 /* RightMenuViewController.xib */,
+			);
+			name = rightMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +294,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F5165A81D929B0800D7B9D9 /* LaunchScreen.storyboard in Resources */,
+				2F5165F21D93C7F700D7B9D9 /* CategoryViewCell.xib in Resources */,
+				2F5165EC1D93C21D00D7B9D9 /* CategoryViewController.xib in Resources */,
+				2F5165DF1D937FDE00D7B9D9 /* LoginViewController.xib in Resources */,
+				2F5165E51D93BE5C00D7B9D9 /* back-button.png in Resources */,
 				2F5165A51D929B0800D7B9D9 /* Assets.xcassets in Resources */,
-				2F5165A31D929B0700D7B9D9 /* Main.storyboard in Resources */,
+				2F5165CE1D92A6F400D7B9D9 /* menu-button@2x.png in Resources */,
+				2F5165B51D929C0B00D7B9D9 /* SplashViewController.xib in Resources */,
+				2F5165CD1D92A6F400D7B9D9 /* menu-button.png in Resources */,
+				2F5165F81D93DAF200D7B9D9 /* RightMenuViewController.xib in Resources */,
+				2F5165E61D93BE5C00D7B9D9 /* back-button@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,32 +314,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F5165A01D929B0700D7B9D9 /* ViewController.m in Sources */,
+				2F5165CF1D92A6F400D7B9D9 /* SlideNavigationController.m in Sources */,
+				2F5165C91D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
+				2F5165F71D93DAF200D7B9D9 /* RightMenuViewController.m in Sources */,
+				2F5165CA1D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
+				2F5165EB1D93C21D00D7B9D9 /* CategoryViewController.m in Sources */,
 				2F51659D1D929B0700D7B9D9 /* AppDelegate.m in Sources */,
+				2F5165DE1D937FDE00D7B9D9 /* LoginViewController.m in Sources */,
 				2F51659A1D929B0700D7B9D9 /* main.m in Sources */,
+				2F5165C81D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorFade.m in Sources */,
+				2F5165B41D929C0B00D7B9D9 /* SplashViewController.m in Sources */,
+				2F5165CC1D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
+				2F5165F11D93C7F700D7B9D9 /* CategoryViewCell.m in Sources */,
+				2F5165CB1D92A6F400D7B9D9 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		2F5165A11D929B0700D7B9D9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2F5165A21D929B0700D7B9D9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2F5165A61D929B0800D7B9D9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2F5165A71D929B0800D7B9D9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2F5165AA1D929B0800D7B9D9 /* Debug */ = {
@@ -204,6 +360,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOsProject1/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -246,6 +404,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOsProject1/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -263,7 +423,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOsProject1/PrefixHeader.pch";
 				INFOPLIST_FILE = iOsProject1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ntq-solution.iOsProject1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,7 +436,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOsProject1/PrefixHeader.pch";
 				INFOPLIST_FILE = iOsProject1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ntq-solution.iOsProject1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
